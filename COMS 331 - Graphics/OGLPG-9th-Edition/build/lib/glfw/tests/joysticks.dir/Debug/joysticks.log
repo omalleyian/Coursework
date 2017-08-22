@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/rkoether/Documents/Classes/Coms 331/OGLPG-9th-Edition/lib/glfw/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/rkoether/Documents/Classes/Coms 331/OGLPG-9th-Edition/build/lib/glfw/tests/CMakeFiles/generate.stamp is up-to-date.
+  joysticks.c
+  joysticks.vcxproj -> C:\Users\rkoether\Documents\Classes\Coms 331\OGLPG-9th-Edition\bin\joysticks.exe

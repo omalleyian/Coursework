@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/rkoether/Documents/Classes/Coms 331/OGLPG-9th-Edition/lib/glfw/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/rkoether/Documents/Classes/Coms 331/OGLPG-9th-Edition/build/lib/glfw/examples/CMakeFiles/generate.stamp is up-to-date.
+  boing.c
+  boing.vcxproj -> C:\Users\rkoether\Documents\Classes\Coms 331\OGLPG-9th-Edition\bin\boing.exe

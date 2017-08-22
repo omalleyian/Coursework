@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rkoether\Documents\Classes\Coms 331\OGLPG-9th-Edition\build\CMakeFiles\36c75632efb3bca4a16d4e581ff32e65\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3226F973-A6DE-3226-831E-61B680EC049A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

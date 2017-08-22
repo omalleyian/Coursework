@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rkoether\Documents\Classes\Coms 331\OGLPG-9th-Edition\src\11-doublewrite\11-doublewrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\rkoether\Documents\Classes\Coms 331\OGLPG-9th-Edition\include\vgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rkoether\Documents\Classes\Coms 331\OGLPG-9th-Edition\include\vapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rkoether\Documents\Classes\Coms 331\OGLPG-9th-Edition\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F56A7B8B-A268-3D14-BF74-A6852EEBAA50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C976E10E-5447-3DA2-8635-15851FD4B96B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

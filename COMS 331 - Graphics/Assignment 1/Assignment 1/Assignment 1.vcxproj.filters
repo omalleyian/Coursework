@@ -15,9 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\gl3w.c">
+    <Library Include="..\..\OGLPG-9th-Edition\lib\glfw3_d.lib">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </Library>
+    <Library Include="..\..\OPENGL32.LIB">
+      <Filter>Source Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="..\..\OGLPG-9th-Edition\lib\LoadShaders.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -33,14 +38,11 @@
     <ClCompile Include="..\..\OGLPG-9th-Edition\lib\vdds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\gl3w.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Rectangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\OGLPG-9th-Edition\lib\glfw3_d.lib" />
-    <Library Include="..\..\OPENGL32.LIB">
-      <Filter>Source Files</Filter>
-    </Library>
   </ItemGroup>
 </Project>

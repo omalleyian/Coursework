@@ -100,8 +100,8 @@ void init()
 
 	ShaderInfo shaders[] =
 	{
-		{ GL_VERTEX_SHADER, "C:/Users/omall/Documents/Computer Science/Graphics - 331/Source Files/Assignment 1/Rectangle.vert" },
-		{ GL_FRAGMENT_SHADER, "C:/Users/omall/Documents/Computer Science/Graphics - 331/Source Files/Assignment 1/Rectangle.frag" },
+		{ GL_VERTEX_SHADER, "C:/Users/omall/Documents/Coursework/COMS 331 - Graphics/Source Files/Assignment 1/Rectangle.vert" },
+		{ GL_FRAGMENT_SHADER, "C:/Users/omall/Documents/Coursework/COMS 331 - Graphics/Source Files/Assignment 1/Rectangle.frag" },
 		{ GL_NONE, NULL }
 	};
 

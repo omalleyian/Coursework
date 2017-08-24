@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\OGLPG-9th-Edition\lib\glfw3_d.lib" />
+    <Library Include="..\..\OPENGL32.LIB" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\gl3w.c" />
+    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\LoadShaders.cpp" />
+    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\loadtexture.cpp" />
+    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\targa.cpp" />
+    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\vbm.cpp" />
+    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\vdds.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F45EE39C-641E-4896-9F08-D0F48F3EC27F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -71,7 +84,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\omall\Documents\Computer Science\Graphics - 331\OGLPG-9th-Edition\include;C:\Users\omall\Documents\Computer Science\Graphics - 331\OGLPG-9th-Edition\lib\glfw\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\omall\Documents\Coursework\COMS 331 - Graphics\OGLPG-9th-Edition\include;C:\Users\omall\Documents\Coursework\COMS 331 - Graphics\OGLPG-9th-Edition\lib\glfw\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -142,19 +155,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\gl3w.c" />
-    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\LoadShaders.cpp" />
-    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\loadtexture.cpp" />
-    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\targa.cpp" />
-    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\vbm.cpp" />
-    <ClCompile Include="..\..\OGLPG-9th-Edition\lib\vdds.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\OGLPG-9th-Edition\lib\glfw3_d.lib" />
-    <Library Include="..\..\OPENGL32.LIB" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

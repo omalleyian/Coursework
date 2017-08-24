@@ -13,7 +13,7 @@
 
 //	Version of GLSL
 
-#version 430 core
+#version 450 core
 
 //	Input variables
 
